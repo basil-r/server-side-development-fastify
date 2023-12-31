@@ -8,7 +8,7 @@ const serverOptions = {
       target: "pino-pretty",
     },
   },
-  disableRequestLogging: true,
+  // disableRequestLogging: true,
   requestIdLogLabel: "reqId",
   requestIdHeader: "request-id",
   genReqId: function (httpIncomingMessage) {
