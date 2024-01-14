@@ -1,0 +1,34 @@
+\n\n
+time_namelookup: %{time_namelookup}s\n
+time_connect: %{time_connect}s\n
+time_appconnect: %{time_appconnect}s\n
+time_pretransfer: %{time_pretransfer}s\n
+time_redirect: %{time_redirect}s\n
+time_starttransfer: %{time_starttransfer}s\n
+time_total: %{time_total}s\n
+\n
+response_code: %{response_code}\n
+http_version: %{http_version}\n
+method: %{method}\n
+scheme: %{scheme}\n
+url: %{url}\n
+url_effective: %{url_effective}\n
+urlnum: %{urlnum}\n
+remote_ip: %{remote_ip}\n
+remote_port: %{remote_port}\n
+\n
+redirect_url: %{redirect_url}\n
+referer: %{referer}\n
+\n
+num_connects: %{num_connects}\n
+num_headers: %{num_headers}\n
+num_redirects: %{num_redirects}\n
+\n
+size_download: %{size_download}b\n
+size_header: %{size_header}b\n
+size_request: %{size_request}b\n
+size_upload: %{size_upload}b\n
+\n
+speed_download: %{speed_download}b/s\n
+speed_upload: %{speed_upload}b/s\n
+\n
