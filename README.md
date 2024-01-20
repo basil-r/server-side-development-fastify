@@ -1,3 +1,28 @@
+# Getting Started with [Fastify-CLI](https://www.npmjs.com/package/fastify-cli)
+
+This project was bootstrapped with Fastify-CLI.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm run dev`
+
+To start the app in dev mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `npm start`
+
+For production mode
+
+### `npm run test`
+
+Run the test cases.
+
+## Learn More
+
+To learn Fastify, check out the [Fastify documentation](https://www.fastify.io/docs/latest/).
+
 #### Useful links:
 
 - A PDF file that has color images of the screenshots/diagrams. [Click here to download it](https://packt.link/df1Dm).
@@ -34,7 +59,7 @@ curl -w '\n' -Z localhost:8080/{routeError,routeError}
 With format file
 
 ```bash
-curl -Li -w '@.curl-format' localhost:8080
+curl -Li -w '@.curl-fmt' localhost:8080
 ```
 
 Usage a config file for POST with json body request  
