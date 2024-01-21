@@ -9,7 +9,15 @@ const options = {}
 
 module.exports = async function (fastify, opts) {
   fastify.register(AutoLoad, {
+    dir: path.join(__dirname, 'schemas'),
+    indexPattern: /^loader\.js$/i
+  })
+
+  fastify.register(AutoLoad, {
     dir: path.join(__dirname, 'plugins'),
+    ignorePattern: /.*.no-load\.js/,
+    // ignorePattern: /^((?!load\.js).)*$/,
+    indexPattern: /^no$/i,
     options: Object.assign({}, opts)
   })
 
