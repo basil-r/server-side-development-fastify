@@ -2,7 +2,8 @@
 
 const fp = require('fastify-plugin')
 
-module.exports = fp(function schemasLoaderPlugin (fastify, opts, next) {
+module.exports = fp(function schemaLoaderPlugin (fastify, opts, next) {
   fastify.addSchema(require('./dotenv.json'))
+
   next()
 })

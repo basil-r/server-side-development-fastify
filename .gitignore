@@ -49,10 +49,13 @@ profile-*
 .idea
 
 # vscode
-.vscode
+# .vscode
 *code-workspace
 
 # clinic
 profile*
 *clinic*
 *flamegraph*
+
+.env
+.tap
